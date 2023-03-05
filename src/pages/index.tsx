@@ -39,7 +39,7 @@ const Home: FC = () => {
 	return (
 		<div className="flex flex-col items-center justify-start min-h-screen bg-gray-100 dark:bg-gray-900">
 			<div className="flex text-3xl font-mono font-bold pt-12 justify-center">Lil Nouns predict</div>
-			<div className="flex flex-col w-[360px] p-6 mt-12 bg-white rounded">
+			<div className="flex flex-col w-[360px] p-6 mt-12 bg-white rounded dark:bg-gray-900">
 				{' '}
 				<div className="text-3l">
 					<span className="font-bold">block number: </span>
