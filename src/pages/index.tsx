@@ -39,7 +39,7 @@ const Home: FC = () => {
 	return (
 		<div className="flex flex-col items-center justify-start min-h-screen bg-gray-100 dark:bg-gray-900">
 			<div className="flex text-3xl font-mono font-bold pt-12 justify-center">Lil Nouns predict</div>
-			<div className="flex flex-col w-[360px] p-6 mt-12 bg-white rounded dark:bg-gray-900">
+			<div className="flex flex-col w-[360px] p-6 mt-12 bg-white rounded dark:bg-gray-700">
 				{' '}
 				<div className="text-3l">
 					<span className="font-bold">block number: </span>
@@ -47,7 +47,7 @@ const Home: FC = () => {
 				</div>
 				<div className="text-3l flex gap-2">
 					<span className="font-bold">Input current lil noun id: </span>
-					<input ref={idRef} className="w-14 bg-gray-100 dark:bg-gray-900 rounded"></input>{' '}
+					<input ref={idRef} className="w-14 bg-gray-100 dark:bg-gray-400 rounded"></input>{' '}
 					{/* <button className="bg-gray-100 rounded text-sm px-4 w-14 flex justify-center" onClick={() => {}}>
 						submit
 					</button> */}
