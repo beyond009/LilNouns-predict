@@ -22,7 +22,7 @@ const Home: FC = () => {
 		//@ts-ignore
 		const id = idRef?.current?.value ? idRef.current.value : 1
 		const seed = new ethers.Contract('0xCC8a0FB5ab3C7132c1b2A0109142Fb112c4Ce515', seedABI, provider)
-		const seedRes = await seed.generateSeed(id + 1, '0x11fb55d9580CdBfB83DE3510fF5Ba74309800Ad1')
+		const seedRes = await seed.generateSeed(Number(id) + 1, '0x11fb55d9580CdBfB83DE3510fF5Ba74309800Ad1')
 		console.log(seedRes)
 		const desc = new ethers.Contract('0x11fb55d9580CdBfB83DE3510fF5Ba74309800Ad1', descABI, provider)
 		const descRes = await desc.genericDataURI('', '', seedRes)
