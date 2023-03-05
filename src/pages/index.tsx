@@ -54,6 +54,17 @@ const Home: FC = () => {
 				</div>
 				<img src={url} width={300} height={300}></img>
 			</div>
+			<div className="text-l mt-32">
+				by{' '}
+				<a href="https://twitter.com/d0d0d9real" className="decoration-1">
+					{' '}
+					harlan009.
+				</a>
+				<a href="https://github.com/beyond009/LilNouns-predict" className="decoration-1 pl-4">
+					{' '}
+					github
+				</a>
+			</div>
 		</div>
 	)
 }
