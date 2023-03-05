@@ -47,7 +47,7 @@ const Home: FC = () => {
 				</div>
 				<div className="text-3l flex gap-2">
 					<span className="font-bold">Input current lil noun id: </span>
-					<input ref={idRef} className="w-14 bg-gray-100 rounded"></input>{' '}
+					<input ref={idRef} className="w-14 bg-gray-100 dark:bg-gray-900 rounded"></input>{' '}
 					{/* <button className="bg-gray-100 rounded text-sm px-4 w-14 flex justify-center" onClick={() => {}}>
 						submit
 					</button> */}
